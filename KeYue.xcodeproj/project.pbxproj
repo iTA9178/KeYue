@@ -16,6 +16,14 @@
 		888C5A1E1BF3402000F5BC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A1C1BF3402000F5BC47 /* LaunchScreen.storyboard */; };
 		888C5A291BF3402000F5BC47 /* KeYueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A281BF3402000F5BC47 /* KeYueTests.m */; };
 		888C5A341BF3402000F5BC47 /* KeYueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A331BF3402000F5BC47 /* KeYueUITests.m */; };
+		888C5A421BF34A9200F5BC47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C5A411BF34A9200F5BC47 /* MapKit.framework */; };
+		888C5A491BF3511C00F5BC47 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A431BF3511C00F5BC47 /* Controllers */; };
+		888C5A4A1BF3511C00F5BC47 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A441BF3511C00F5BC47 /* Models */; };
+		888C5A4B1BF3511C00F5BC47 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A451BF3511C00F5BC47 /* Resources */; };
+		888C5A4C1BF3511C00F5BC47 /* Util in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A461BF3511C00F5BC47 /* Util */; };
+		888C5A4D1BF3511C00F5BC47 /* Vendor in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A471BF3511C00F5BC47 /* Vendor */; };
+		888C5A4E1BF3511C00F5BC47 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A481BF3511C00F5BC47 /* Views */; };
+		90C3E9DB6BEA603CC79F06F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7DBF48A300EDC43A29837 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B7DBF48A300EDC43A29837 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECD53667E3ECEADABFD6DCD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		41031FD618A1411D2E56D5D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		888C5A081BF3402000F5BC47 /* KeYue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeYue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888C5A0C1BF3402000F5BC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		888C5A0E1BF3402000F5BC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +64,13 @@
 		888C5A2F1BF3402000F5BC47 /* KeYueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeYueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		888C5A331BF3402000F5BC47 /* KeYueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeYueUITests.m; sourceTree = "<group>"; };
 		888C5A351BF3402000F5BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888C5A411BF34A9200F5BC47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		888C5A431BF3511C00F5BC47 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		888C5A441BF3511C00F5BC47 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		888C5A451BF3511C00F5BC47 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		888C5A461BF3511C00F5BC47 /* Util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Util; sourceTree = "<group>"; };
+		888C5A471BF3511C00F5BC47 /* Vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Vendor; sourceTree = "<group>"; };
+		888C5A481BF3511C00F5BC47 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888C5A421BF34A9200F5BC47 /* MapKit.framework in Frameworks */,
+				90C3E9DB6BEA603CC79F06F6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +100,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17C56DA8740BFB60F7CE5572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B7DBF48A300EDC43A29837 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23064728436B8AFC5752EA5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41031FD618A1411D2E56D5D8 /* Pods.debug.xcconfig */,
+				1ECD53667E3ECEADABFD6DCD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		888C59FF1BF3402000F5BC47 = {
 			isa = PBXGroup;
 			children = (
+				888C5A411BF34A9200F5BC47 /* MapKit.framework */,
 				888C5A0A1BF3402000F5BC47 /* KeYue */,
 				888C5A271BF3402000F5BC47 /* KeYueTests */,
 				888C5A321BF3402000F5BC47 /* KeYueUITests */,
 				888C5A091BF3402000F5BC47 /* Products */,
+				23064728436B8AFC5752EA5A /* Pods */,
+				17C56DA8740BFB60F7CE5572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +143,12 @@
 		888C5A0A1BF3402000F5BC47 /* KeYue */ = {
 			isa = PBXGroup;
 			children = (
+				888C5A441BF3511C00F5BC47 /* Models */,
+				888C5A481BF3511C00F5BC47 /* Views */,
+				888C5A431BF3511C00F5BC47 /* Controllers */,
+				888C5A461BF3511C00F5BC47 /* Util */,
+				888C5A471BF3511C00F5BC47 /* Vendor */,
+				888C5A451BF3511C00F5BC47 /* Resources */,
 				888C5A0E1BF3402000F5BC47 /* AppDelegate.h */,
 				888C5A0F1BF3402000F5BC47 /* AppDelegate.m */,
 				888C5A111BF3402000F5BC47 /* ViewController.h */,
@@ -150,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 888C5A381BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYue" */;
 			buildPhases = (
+				D0F4F54C3070C17C103B17FC /* Check Pods Manifest.lock */,
 				888C5A041BF3402000F5BC47 /* Sources */,
 				888C5A051BF3402000F5BC47 /* Frameworks */,
 				888C5A061BF3402000F5BC47 /* Resources */,
+				D7538B6DB726F038660514A7 /* Embed Pods Frameworks */,
+				9CD9979BD29384E8F6582AAF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +259,11 @@
 				TargetAttributes = {
 					888C5A071BF3402000F5BC47 = {
 						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					888C5A231BF3402000F5BC47 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -246,8 +300,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888C5A4E1BF3511C00F5BC47 /* Views in Resources */,
+				888C5A4A1BF3511C00F5BC47 /* Models in Resources */,
 				888C5A1E1BF3402000F5BC47 /* LaunchScreen.storyboard in Resources */,
+				888C5A4C1BF3511C00F5BC47 /* Util in Resources */,
+				888C5A4B1BF3511C00F5BC47 /* Resources in Resources */,
+				888C5A4D1BF3511C00F5BC47 /* Vendor in Resources */,
 				888C5A1B1BF3402000F5BC47 /* Assets.xcassets in Resources */,
+				888C5A491BF3511C00F5BC47 /* Controllers in Resources */,
 				888C5A161BF3402000F5BC47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +327,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CD9979BD29384E8F6582AAF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F4F54C3070C17C103B17FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7538B6DB726F038660514A7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		888C5A041BF3402000F5BC47 /* Sources */ = {
@@ -413,9 +521,11 @@
 		};
 		888C5A391BF3402000F5BC47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41031FD618A1411D2E56D5D8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeYue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +534,11 @@
 		};
 		888C5A3A1BF3402000F5BC47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECD53667E3ECEADABFD6DCD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeYue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +612,7 @@
 				888C5A3A1BF3402000F5BC47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888C5A3B1BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYueTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +621,7 @@
 				888C5A3D1BF3402000F5BC47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888C5A3E1BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYueUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +630,7 @@
 				888C5A401BF3402000F5BC47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
