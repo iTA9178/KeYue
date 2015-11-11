@@ -17,12 +17,6 @@
 		888C5A291BF3402000F5BC47 /* KeYueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A281BF3402000F5BC47 /* KeYueTests.m */; };
 		888C5A341BF3402000F5BC47 /* KeYueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A331BF3402000F5BC47 /* KeYueUITests.m */; };
 		888C5A421BF34A9200F5BC47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C5A411BF34A9200F5BC47 /* MapKit.framework */; };
-		888C5A491BF3511C00F5BC47 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A431BF3511C00F5BC47 /* Controllers */; };
-		888C5A4A1BF3511C00F5BC47 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A441BF3511C00F5BC47 /* Models */; };
-		888C5A4B1BF3511C00F5BC47 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A451BF3511C00F5BC47 /* Resources */; };
-		888C5A4C1BF3511C00F5BC47 /* Util in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A461BF3511C00F5BC47 /* Util */; };
-		888C5A4D1BF3511C00F5BC47 /* Vendor in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A471BF3511C00F5BC47 /* Vendor */; };
-		888C5A4E1BF3511C00F5BC47 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A481BF3511C00F5BC47 /* Views */; };
 		90C3E9DB6BEA603CC79F06F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7DBF48A300EDC43A29837 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,13 +43,13 @@
 		41031FD618A1411D2E56D5D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		888C5A081BF3402000F5BC47 /* KeYue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeYue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888C5A0C1BF3402000F5BC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		888C5A0E1BF3402000F5BC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		888C5A0F1BF3402000F5BC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		888C5A111BF3402000F5BC47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		888C5A121BF3402000F5BC47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		888C5A0E1BF3402000F5BC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KeYue/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		888C5A0F1BF3402000F5BC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KeYue/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		888C5A111BF3402000F5BC47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		888C5A121BF3402000F5BC47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		888C5A151BF3402000F5BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		888C5A181BF3402000F5BC47 /* KeYue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeYue.xcdatamodel; sourceTree = "<group>"; };
-		888C5A1A1BF3402000F5BC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		888C5A1A1BF3402000F5BC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		888C5A1D1BF3402000F5BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		888C5A1F1BF3402000F5BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888C5A241BF3402000F5BC47 /* KeYueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeYueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,12 +59,6 @@
 		888C5A331BF3402000F5BC47 /* KeYueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeYueUITests.m; sourceTree = "<group>"; };
 		888C5A351BF3402000F5BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888C5A411BF34A9200F5BC47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		888C5A431BF3511C00F5BC47 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
-		888C5A441BF3511C00F5BC47 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
-		888C5A451BF3511C00F5BC47 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
-		888C5A461BF3511C00F5BC47 /* Util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Util; sourceTree = "<group>"; };
-		888C5A471BF3511C00F5BC47 /* Vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Vendor; sourceTree = "<group>"; };
-		888C5A481BF3511C00F5BC47 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,21 +131,14 @@
 		888C5A0A1BF3402000F5BC47 /* KeYue */ = {
 			isa = PBXGroup;
 			children = (
-				888C5A441BF3511C00F5BC47 /* Models */,
-				888C5A481BF3511C00F5BC47 /* Views */,
-				888C5A431BF3511C00F5BC47 /* Controllers */,
-				888C5A461BF3511C00F5BC47 /* Util */,
-				888C5A471BF3511C00F5BC47 /* Vendor */,
-				888C5A451BF3511C00F5BC47 /* Resources */,
-				888C5A0E1BF3402000F5BC47 /* AppDelegate.h */,
-				888C5A0F1BF3402000F5BC47 /* AppDelegate.m */,
-				888C5A111BF3402000F5BC47 /* ViewController.h */,
-				888C5A121BF3402000F5BC47 /* ViewController.m */,
-				888C5A141BF3402000F5BC47 /* Main.storyboard */,
-				888C5A1A1BF3402000F5BC47 /* Assets.xcassets */,
-				888C5A1C1BF3402000F5BC47 /* LaunchScreen.storyboard */,
-				888C5A1F1BF3402000F5BC47 /* Info.plist */,
-				888C5A171BF3402000F5BC47 /* KeYue.xcdatamodeld */,
+				88C1B6281BF399750078E635 /* UI */,
+				88C1B6271BF399310078E635 /* AppDelegate */,
+				88C1B6241BF397BA0078E635 /* Resources */,
+				88C1B6231BF397B50078E635 /* Util */,
+				88C1B6221BF397AE0078E635 /* Vendor */,
+				88C1B6211BF397A30078E635 /* Controllers */,
+				88C1B6201BF3979A0078E635 /* Views */,
+				88C1B61E1BF3959B0078E635 /* Models */,
 				888C5A0B1BF3402000F5BC47 /* Supporting Files */,
 			);
 			path = KeYue;
@@ -166,6 +147,8 @@
 		888C5A0B1BF3402000F5BC47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				888C5A171BF3402000F5BC47 /* KeYue.xcdatamodeld */,
+				888C5A1F1BF3402000F5BC47 /* Info.plist */,
 				888C5A0C1BF3402000F5BC47 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -187,6 +170,69 @@
 				888C5A351BF3402000F5BC47 /* Info.plist */,
 			);
 			path = KeYueUITests;
+			sourceTree = "<group>";
+		};
+		88C1B61E1BF3959B0078E635 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88C1B6201BF3979A0078E635 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88C1B6211BF397A30078E635 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A111BF3402000F5BC47 /* ViewController.h */,
+				888C5A121BF3402000F5BC47 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		88C1B6221BF397AE0078E635 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		88C1B6231BF397B50078E635 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		88C1B6241BF397BA0078E635 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A1A1BF3402000F5BC47 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88C1B6271BF399310078E635 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A0E1BF3402000F5BC47 /* AppDelegate.h */,
+				888C5A0F1BF3402000F5BC47 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		88C1B6281BF399750078E635 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A141BF3402000F5BC47 /* Main.storyboard */,
+				888C5A1C1BF3402000F5BC47 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,14 +346,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888C5A4E1BF3511C00F5BC47 /* Views in Resources */,
-				888C5A4A1BF3511C00F5BC47 /* Models in Resources */,
 				888C5A1E1BF3402000F5BC47 /* LaunchScreen.storyboard in Resources */,
-				888C5A4C1BF3511C00F5BC47 /* Util in Resources */,
-				888C5A4B1BF3511C00F5BC47 /* Resources in Resources */,
-				888C5A4D1BF3511C00F5BC47 /* Vendor in Resources */,
 				888C5A1B1BF3402000F5BC47 /* Assets.xcassets in Resources */,
-				888C5A491BF3511C00F5BC47 /* Controllers in Resources */,
 				888C5A161BF3402000F5BC47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
