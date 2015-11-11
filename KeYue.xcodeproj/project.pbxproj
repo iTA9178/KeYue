@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888C5A0D1BF3402000F5BC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A0C1BF3402000F5BC47 /* main.m */; };
+		888C5A101BF3402000F5BC47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A0F1BF3402000F5BC47 /* AppDelegate.m */; };
+		888C5A131BF3402000F5BC47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A121BF3402000F5BC47 /* ViewController.m */; };
+		888C5A161BF3402000F5BC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A141BF3402000F5BC47 /* Main.storyboard */; };
+		888C5A191BF3402000F5BC47 /* KeYue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A171BF3402000F5BC47 /* KeYue.xcdatamodeld */; };
+		888C5A1B1BF3402000F5BC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A1A1BF3402000F5BC47 /* Assets.xcassets */; };
+		888C5A1E1BF3402000F5BC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A1C1BF3402000F5BC47 /* LaunchScreen.storyboard */; };
+		888C5A291BF3402000F5BC47 /* KeYueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A281BF3402000F5BC47 /* KeYueTests.m */; };
+		888C5A341BF3402000F5BC47 /* KeYueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A331BF3402000F5BC47 /* KeYueUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888C5A251BF3402000F5BC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888C5A001BF3402000F5BC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888C5A071BF3402000F5BC47;
+			remoteInfo = KeYue;
+		};
+		888C5A301BF3402000F5BC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888C5A001BF3402000F5BC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888C5A071BF3402000F5BC47;
+			remoteInfo = KeYue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888C5A081BF3402000F5BC47 /* KeYue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeYue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		888C5A0C1BF3402000F5BC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		888C5A0E1BF3402000F5BC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		888C5A0F1BF3402000F5BC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		888C5A111BF3402000F5BC47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		888C5A121BF3402000F5BC47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		888C5A151BF3402000F5BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888C5A181BF3402000F5BC47 /* KeYue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeYue.xcdatamodel; sourceTree = "<group>"; };
+		888C5A1A1BF3402000F5BC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		888C5A1D1BF3402000F5BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		888C5A1F1BF3402000F5BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888C5A241BF3402000F5BC47 /* KeYueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeYueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888C5A281BF3402000F5BC47 /* KeYueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeYueTests.m; sourceTree = "<group>"; };
+		888C5A2A1BF3402000F5BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888C5A2F1BF3402000F5BC47 /* KeYueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeYueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888C5A331BF3402000F5BC47 /* KeYueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeYueUITests.m; sourceTree = "<group>"; };
+		888C5A351BF3402000F5BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888C5A051BF3402000F5BC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C5A211BF3402000F5BC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C5A2C1BF3402000F5BC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888C59FF1BF3402000F5BC47 = {
+			isa = PBXGroup;
+			children = (
+				888C5A0A1BF3402000F5BC47 /* KeYue */,
+				888C5A271BF3402000F5BC47 /* KeYueTests */,
+				888C5A321BF3402000F5BC47 /* KeYueUITests */,
+				888C5A091BF3402000F5BC47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888C5A091BF3402000F5BC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A081BF3402000F5BC47 /* KeYue.app */,
+				888C5A241BF3402000F5BC47 /* KeYueTests.xctest */,
+				888C5A2F1BF3402000F5BC47 /* KeYueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888C5A0A1BF3402000F5BC47 /* KeYue */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A0E1BF3402000F5BC47 /* AppDelegate.h */,
+				888C5A0F1BF3402000F5BC47 /* AppDelegate.m */,
+				888C5A111BF3402000F5BC47 /* ViewController.h */,
+				888C5A121BF3402000F5BC47 /* ViewController.m */,
+				888C5A141BF3402000F5BC47 /* Main.storyboard */,
+				888C5A1A1BF3402000F5BC47 /* Assets.xcassets */,
+				888C5A1C1BF3402000F5BC47 /* LaunchScreen.storyboard */,
+				888C5A1F1BF3402000F5BC47 /* Info.plist */,
+				888C5A171BF3402000F5BC47 /* KeYue.xcdatamodeld */,
+				888C5A0B1BF3402000F5BC47 /* Supporting Files */,
+			);
+			path = KeYue;
+			sourceTree = "<group>";
+		};
+		888C5A0B1BF3402000F5BC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A0C1BF3402000F5BC47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888C5A271BF3402000F5BC47 /* KeYueTests */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A281BF3402000F5BC47 /* KeYueTests.m */,
+				888C5A2A1BF3402000F5BC47 /* Info.plist */,
+			);
+			path = KeYueTests;
+			sourceTree = "<group>";
+		};
+		888C5A321BF3402000F5BC47 /* KeYueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				888C5A331BF3402000F5BC47 /* KeYueUITests.m */,
+				888C5A351BF3402000F5BC47 /* Info.plist */,
+			);
+			path = KeYueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888C5A071BF3402000F5BC47 /* KeYue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888C5A381BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYue" */;
+			buildPhases = (
+				888C5A041BF3402000F5BC47 /* Sources */,
+				888C5A051BF3402000F5BC47 /* Frameworks */,
+				888C5A061BF3402000F5BC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeYue;
+			productName = KeYue;
+			productReference = 888C5A081BF3402000F5BC47 /* KeYue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888C5A231BF3402000F5BC47 /* KeYueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888C5A3B1BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYueTests" */;
+			buildPhases = (
+				888C5A201BF3402000F5BC47 /* Sources */,
+				888C5A211BF3402000F5BC47 /* Frameworks */,
+				888C5A221BF3402000F5BC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888C5A261BF3402000F5BC47 /* PBXTargetDependency */,
+			);
+			name = KeYueTests;
+			productName = KeYueTests;
+			productReference = 888C5A241BF3402000F5BC47 /* KeYueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		888C5A2E1BF3402000F5BC47 /* KeYueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888C5A3E1BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYueUITests" */;
+			buildPhases = (
+				888C5A2B1BF3402000F5BC47 /* Sources */,
+				888C5A2C1BF3402000F5BC47 /* Frameworks */,
+				888C5A2D1BF3402000F5BC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888C5A311BF3402000F5BC47 /* PBXTargetDependency */,
+			);
+			name = KeYueUITests;
+			productName = KeYueUITests;
+			productReference = 888C5A2F1BF3402000F5BC47 /* KeYueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888C5A001BF3402000F5BC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "KeYue Inc";
+				TargetAttributes = {
+					888C5A071BF3402000F5BC47 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					888C5A231BF3402000F5BC47 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 888C5A071BF3402000F5BC47;
+					};
+					888C5A2E1BF3402000F5BC47 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 888C5A071BF3402000F5BC47;
+					};
+				};
+			};
+			buildConfigurationList = 888C5A031BF3402000F5BC47 /* Build configuration list for PBXProject "KeYue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888C59FF1BF3402000F5BC47;
+			productRefGroup = 888C5A091BF3402000F5BC47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888C5A071BF3402000F5BC47 /* KeYue */,
+				888C5A231BF3402000F5BC47 /* KeYueTests */,
+				888C5A2E1BF3402000F5BC47 /* KeYueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888C5A061BF3402000F5BC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C5A1E1BF3402000F5BC47 /* LaunchScreen.storyboard in Resources */,
+				888C5A1B1BF3402000F5BC47 /* Assets.xcassets in Resources */,
+				888C5A161BF3402000F5BC47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C5A221BF3402000F5BC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C5A2D1BF3402000F5BC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888C5A041BF3402000F5BC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C5A131BF3402000F5BC47 /* ViewController.m in Sources */,
+				888C5A191BF3402000F5BC47 /* KeYue.xcdatamodeld in Sources */,
+				888C5A101BF3402000F5BC47 /* AppDelegate.m in Sources */,
+				888C5A0D1BF3402000F5BC47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C5A201BF3402000F5BC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C5A291BF3402000F5BC47 /* KeYueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C5A2B1BF3402000F5BC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C5A341BF3402000F5BC47 /* KeYueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888C5A261BF3402000F5BC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888C5A071BF3402000F5BC47 /* KeYue */;
+			targetProxy = 888C5A251BF3402000F5BC47 /* PBXContainerItemProxy */;
+		};
+		888C5A311BF3402000F5BC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888C5A071BF3402000F5BC47 /* KeYue */;
+			targetProxy = 888C5A301BF3402000F5BC47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888C5A141BF3402000F5BC47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888C5A151BF3402000F5BC47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888C5A1C1BF3402000F5BC47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888C5A1D1BF3402000F5BC47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888C5A361BF3402000F5BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		888C5A371BF3402000F5BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888C5A391BF3402000F5BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeYue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		888C5A3A1BF3402000F5BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeYue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		888C5A3C1BF3402000F5BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeYueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeYue.app/KeYue";
+			};
+			name = Debug;
+		};
+		888C5A3D1BF3402000F5BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeYueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeYue.app/KeYue";
+			};
+			name = Release;
+		};
+		888C5A3F1BF3402000F5BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeYueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeYue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		888C5A401BF3402000F5BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeYueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.keyue.KeYueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeYue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888C5A031BF3402000F5BC47 /* Build configuration list for PBXProject "KeYue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888C5A361BF3402000F5BC47 /* Debug */,
+				888C5A371BF3402000F5BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888C5A381BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888C5A391BF3402000F5BC47 /* Debug */,
+				888C5A3A1BF3402000F5BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		888C5A3B1BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888C5A3C1BF3402000F5BC47 /* Debug */,
+				888C5A3D1BF3402000F5BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		888C5A3E1BF3402000F5BC47 /* Build configuration list for PBXNativeTarget "KeYueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888C5A3F1BF3402000F5BC47 /* Debug */,
+				888C5A401BF3402000F5BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		888C5A171BF3402000F5BC47 /* KeYue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				888C5A181BF3402000F5BC47 /* KeYue.xcdatamodel */,
+			);
+			currentVersion = 888C5A181BF3402000F5BC47 /* KeYue.xcdatamodel */;
+			path = KeYue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 888C5A001BF3402000F5BC47 /* Project object */;
+}
