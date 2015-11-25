@@ -19,9 +19,6 @@
 		888C5A421BF34A9200F5BC47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C5A411BF34A9200F5BC47 /* MapKit.framework */; };
 		88C1B62B1BF43FD00078E635 /* KeYueNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B62A1BF43FD00078E635 /* KeYueNetAPIClient.m */; };
 		88C1B62F1BF5CB8A0078E635 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B62E1BF5CB8A0078E635 /* NSObject+Common.m */; };
-		88C1B6371BF5CF720078E635 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B6321BF5CF720078E635 /* JDStatusBarNotification.m */; };
-		88C1B6381BF5CF720078E635 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B6341BF5CF720078E635 /* JDStatusBarStyle.m */; };
-		88C1B6391BF5CF720078E635 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B6361BF5CF720078E635 /* JDStatusBarView.m */; };
 		90C3E9DB6BEA603CC79F06F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7DBF48A300EDC43A29837 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -68,12 +65,6 @@
 		88C1B62A1BF43FD00078E635 /* KeYueNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeYueNetAPIClient.m; sourceTree = "<group>"; };
 		88C1B62D1BF5CB8A0078E635 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
 		88C1B62E1BF5CB8A0078E635 /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
-		88C1B6311BF5CF720078E635 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
-		88C1B6321BF5CF720078E635 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
-		88C1B6331BF5CF720078E635 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
-		88C1B6341BF5CF720078E635 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
-		88C1B6351BF5CF720078E635 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
-		88C1B6361BF5CF720078E635 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +204,6 @@
 		88C1B6221BF397AE0078E635 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				88C1B6301BF5CF720078E635 /* JDStatusBarNotification */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -261,19 +251,6 @@
 				88C1B62E1BF5CB8A0078E635 /* NSObject+Common.m */,
 			);
 			path = OC_Category;
-			sourceTree = "<group>";
-		};
-		88C1B6301BF5CF720078E635 /* JDStatusBarNotification */ = {
-			isa = PBXGroup;
-			children = (
-				88C1B6311BF5CF720078E635 /* JDStatusBarNotification.h */,
-				88C1B6321BF5CF720078E635 /* JDStatusBarNotification.m */,
-				88C1B6331BF5CF720078E635 /* JDStatusBarStyle.h */,
-				88C1B6341BF5CF720078E635 /* JDStatusBarStyle.m */,
-				88C1B6351BF5CF720078E635 /* JDStatusBarView.h */,
-				88C1B6361BF5CF720078E635 /* JDStatusBarView.m */,
-			);
-			path = JDStatusBarNotification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,13 +440,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				888C5A131BF3402000F5BC47 /* ViewController.m in Sources */,
-				88C1B6371BF5CF720078E635 /* JDStatusBarNotification.m in Sources */,
 				888C5A191BF3402000F5BC47 /* KeYue.xcdatamodeld in Sources */,
 				88C1B62B1BF43FD00078E635 /* KeYueNetAPIClient.m in Sources */,
 				888C5A101BF3402000F5BC47 /* AppDelegate.m in Sources */,
-				88C1B6381BF5CF720078E635 /* JDStatusBarStyle.m in Sources */,
 				88C1B62F1BF5CB8A0078E635 /* NSObject+Common.m in Sources */,
-				88C1B6391BF5CF720078E635 /* JDStatusBarView.m in Sources */,
 				888C5A0D1BF3402000F5BC47 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +584,7 @@
 			baseConfigurationReference = 41031FD618A1411D2E56D5D8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = KeYue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -623,6 +598,7 @@
 			baseConfigurationReference = 1ECD53667E3ECEADABFD6DCD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = KeYue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
