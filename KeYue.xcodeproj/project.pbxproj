@@ -97,6 +97,7 @@
 		17C56DA8740BFB60F7CE5572 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				888C5A411BF34A9200F5BC47 /* MapKit.framework */,
 				18B7DBF48A300EDC43A29837 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -114,7 +115,6 @@
 		888C59FF1BF3402000F5BC47 = {
 			isa = PBXGroup;
 			children = (
-				888C5A411BF34A9200F5BC47 /* MapKit.framework */,
 				888C5A0A1BF3402000F5BC47 /* KeYue */,
 				888C5A271BF3402000F5BC47 /* KeYueTests */,
 				888C5A321BF3402000F5BC47 /* KeYueUITests */,
@@ -137,14 +137,14 @@
 		888C5A0A1BF3402000F5BC47 /* KeYue */ = {
 			isa = PBXGroup;
 			children = (
-				88C1B6281BF399750078E635 /* UI */,
 				88C1B6271BF399310078E635 /* AppDelegate */,
-				88C1B6241BF397BA0078E635 /* Resources */,
-				88C1B6231BF397B50078E635 /* Util */,
-				88C1B6221BF397AE0078E635 /* Vendor */,
 				88C1B6211BF397A30078E635 /* Controllers */,
 				88C1B6201BF3979A0078E635 /* Views */,
 				88C1B61E1BF3959B0078E635 /* Models */,
+				88C1B6281BF399750078E635 /* UI */,
+				88C1B6231BF397B50078E635 /* Util */,
+				88C1B6221BF397AE0078E635 /* Vendor */,
+				88C1B6241BF397BA0078E635 /* Resources */,
 				888C5A0B1BF3402000F5BC47 /* Supporting Files */,
 			);
 			path = KeYue;
