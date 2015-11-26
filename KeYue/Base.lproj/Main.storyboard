@@ -25,6 +25,25 @@
             </objects>
             <point key="canvasLocation" x="-2089" y="1641"/>
         </scene>
+        <!--微信-->
+        <scene sceneID="XjP-Ra-T5H">
+            <objects>
+                <viewController id="tgp-yQ-KDs" customClass="WechatViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DGP-Wx-rTC"/>
+                        <viewControllerLayoutGuide type="bottom" id="NWc-HO-BPD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Sy-sy-eN1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="微信" id="syn-s4-ZDW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acp-cU-zRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-565" y="-112"/>
+        </scene>
         <!--通讯录-->
         <scene sceneID="Wtn-eK-8hy">
             <objects>
@@ -164,35 +183,6 @@
             <point key="canvasLocation" x="-1373" y="638"/>
         </scene>
         <!--微信-->
-        <scene sceneID="aWx-Kc-a8v">
-            <objects>
-                <tableViewController id="KIa-Yq-FIX" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wsk-ct-ljb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="YIx-HR-uDZ">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YIx-HR-uDZ" id="HFL-5g-ZAS">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="KIa-Yq-FIX" id="evr-iX-RIM"/>
-                            <outlet property="delegate" destination="KIa-Yq-FIX" id="e1A-E1-Bv6"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="微信" id="6tl-hA-3Pn"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ybh-b3-zLF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-565" y="-112"/>
-        </scene>
-        <!--微信-->
         <scene sceneID="QkS-Xg-IUf">
             <objects>
                 <navigationController id="9Ev-oP-hBf" sceneMemberID="viewController">
@@ -202,7 +192,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="KIa-Yq-FIX" kind="relationship" relationship="rootViewController" id="gnk-zT-HGf"/>
+                        <segue destination="tgp-yQ-KDs" kind="relationship" relationship="rootViewController" id="Bjs-EZ-eGf"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9y-w4-Saq" userLabel="First Responder" sceneMemberID="firstResponder"/>

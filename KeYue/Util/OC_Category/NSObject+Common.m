@@ -9,8 +9,6 @@
 #define kPath_ImageCache @"ImageCache"
 #define kPath_ResponseCache @"ResponseCache"
 #define kTestKey @"BaseURLIsTest"
-//测试地址
-#define kBaseUrlStr_Test @"https://coding.net/"
 
 #import "NSObject+Common.h"
 #import "JDStatusBarNotification.h"
@@ -120,19 +118,11 @@
     NSString *baseURLStr;
     if ([self baseURLStrIsTest]) {
         //staging
-        baseURLStr = kBaseUrlStr_Test;
+        baseURLStr = @"http://121.42.143.55:8080/1.6";
     }else{
         //生产
-        baseURLStr = @"https://coding.net/";
+        baseURLStr = @"http://api.rehu.cn/1.6";
     }
-    //    //staging
-    //    baseURLStr = kBaseUrlStr_Test;
-    //    //村民
-    //    baseURLStr = @"http://192.168.0.188:8080/";
-    //    //彭博
-    //    baseURLStr = @"http://192.168.0.156:9990/";
-    //    //小胖
-    //    baseURLStr = @"http://192.168.0.222:8080/";
     
     return baseURLStr;
 }
@@ -204,6 +194,7 @@
         return NO;
     }
 }
+
 // 获取缓存图片
 + (NSData*) loadImageDataWithName:( NSString *)imageName inFolder:(NSString *)folderName
 {
@@ -238,48 +229,51 @@
     return [self deleteCacheWithPath:folderName];
 }
 
-////网络请求
-//+ (BOOL)saveResponseData:(NSDictionary *)data toPath:(NSString *)requestPath {
+//网络请求
++ (BOOL)saveResponseData:(NSDictionary *)data toPath:(NSString *)requestPath {
 //    User *loginUser = [Login curLoginUser];
 //    if (!loginUser) {
 //        return NO;
 //    }else{
 //        requestPath = [NSString stringWithFormat:@"%@_%@", loginUser.global_key, requestPath];
 //    }
-//    if ([self createDirInCache:kPath_ResponseCache]) {
-//        NSString *abslutePath = [NSString stringWithFormat:@"%@/%@.plist", [self pathInCacheDirectory:kPath_ResponseCache], [requestPath md5Str]];
-//        return [data writeToFile:abslutePath atomically:YES];
-//    }else{
-//        return NO;
-//    }
-//}
-//
-//+ (id)loadResponseWithPath:(NSString *)requestPath {//返回一个NSDictionary类型的json数据
+    requestPath = [NSString stringWithFormat:@"%@_%@", @"20151126", requestPath];
+    if ([self createDirInCache:kPath_ResponseCache]) {
+        NSString *abslutePath = [NSString stringWithFormat:@"%@/%@.plist", [self pathInCacheDirectory:kPath_ResponseCache], [requestPath md5Str]];
+        return [data writeToFile:abslutePath atomically:YES];
+    }else{
+        return NO;
+    }
+}
+
++ (id)loadResponseWithPath:(NSString *)requestPath {//返回一个NSDictionary类型的json数据
 //    User *loginUser = [Login curLoginUser];
 //    if (!loginUser) {
 //        return nil;
 //    }else{
 //        requestPath = [NSString stringWithFormat:@"%@_%@", loginUser.global_key, requestPath];
 //    }
-//    NSString *abslutePath = [NSString stringWithFormat:@"%@/%@.plist", [self pathInCacheDirectory:kPath_ResponseCache], [requestPath md5Str]];
-//    return [NSMutableDictionary dictionaryWithContentsOfFile:abslutePath];
-//}
-//
-//+ (BOOL)deleteResponseCacheForPath:(NSString *)requestPath {
+    requestPath = [NSString stringWithFormat:@"%@_%@", @"20151126", requestPath];
+    NSString *abslutePath = [NSString stringWithFormat:@"%@/%@.plist", [self pathInCacheDirectory:kPath_ResponseCache], [requestPath md5Str]];
+    return [NSMutableDictionary dictionaryWithContentsOfFile:abslutePath];
+}
+
++ (BOOL)deleteResponseCacheForPath:(NSString *)requestPath {
 //    User *loginUser = [Login curLoginUser];
 //    if (!loginUser) {
 //        return NO;
 //    }else{
 //        requestPath = [NSString stringWithFormat:@"%@_%@", loginUser.global_key, requestPath];
 //    }
-//    NSString *abslutePath = [NSString stringWithFormat:@"%@/%@.plist", [self pathInCacheDirectory:kPath_ResponseCache], [requestPath md5Str]];
-//    NSFileManager *fileManager = [NSFileManager defaultManager];
-//    if ([fileManager fileExistsAtPath:abslutePath]) {
-//        return [fileManager removeItemAtPath:abslutePath error:nil];
-//    }else{
-//        return NO;
-//    }
-//}
+    requestPath = [NSString stringWithFormat:@"%@_%@", @"20151126", requestPath];
+    NSString *abslutePath = [NSString stringWithFormat:@"%@/%@.plist", [self pathInCacheDirectory:kPath_ResponseCache], [requestPath md5Str]];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if ([fileManager fileExistsAtPath:abslutePath]) {
+        return [fileManager removeItemAtPath:abslutePath error:nil];
+    }else{
+        return NO;
+    }
+}
 
 + (BOOL)deleteResponseCache{
     return [self deleteCacheWithPath:kPath_ResponseCache];

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		888C5A0D1BF3402000F5BC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A0C1BF3402000F5BC47 /* main.m */; };
 		888C5A101BF3402000F5BC47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A0F1BF3402000F5BC47 /* AppDelegate.m */; };
-		888C5A131BF3402000F5BC47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A121BF3402000F5BC47 /* ViewController.m */; };
 		888C5A161BF3402000F5BC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A141BF3402000F5BC47 /* Main.storyboard */; };
 		888C5A191BF3402000F5BC47 /* KeYue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A171BF3402000F5BC47 /* KeYue.xcdatamodeld */; };
 		888C5A1B1BF3402000F5BC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888C5A1A1BF3402000F5BC47 /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		888C5A291BF3402000F5BC47 /* KeYueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A281BF3402000F5BC47 /* KeYueTests.m */; };
 		888C5A341BF3402000F5BC47 /* KeYueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C5A331BF3402000F5BC47 /* KeYueUITests.m */; };
 		888C5A421BF34A9200F5BC47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C5A411BF34A9200F5BC47 /* MapKit.framework */; };
+		889B0D031C06B8CB00AF827C /* WechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D021C06B8CB00AF827C /* WechatViewController.m */; };
+		889B0D061C06BC0300AF827C /* KeYueNetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D051C06BC0300AF827C /* KeYueNetAPIManager.m */; };
+		889B0D091C06E07200AF827C /* UnReadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D081C06E07200AF827C /* UnReadManager.m */; };
+		889B0D0E1C06FCBB00AF827C /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D0D1C06FCBB00AF827C /* NSString+Common.m */; };
 		88C1B62B1BF43FD00078E635 /* KeYueNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B62A1BF43FD00078E635 /* KeYueNetAPIClient.m */; };
 		88C1B62F1BF5CB8A0078E635 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B62E1BF5CB8A0078E635 /* NSObject+Common.m */; };
 		90C3E9DB6BEA603CC79F06F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7DBF48A300EDC43A29837 /* libPods.a */; };
@@ -47,8 +50,6 @@
 		888C5A0C1BF3402000F5BC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		888C5A0E1BF3402000F5BC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KeYue/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		888C5A0F1BF3402000F5BC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KeYue/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		888C5A111BF3402000F5BC47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		888C5A121BF3402000F5BC47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		888C5A151BF3402000F5BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		888C5A181BF3402000F5BC47 /* KeYue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeYue.xcdatamodel; sourceTree = "<group>"; };
 		888C5A1A1BF3402000F5BC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +62,15 @@
 		888C5A331BF3402000F5BC47 /* KeYueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeYueUITests.m; sourceTree = "<group>"; };
 		888C5A351BF3402000F5BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888C5A411BF34A9200F5BC47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		889B0D011C06B8CB00AF827C /* WechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatViewController.h; sourceTree = "<group>"; };
+		889B0D021C06B8CB00AF827C /* WechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatViewController.m; sourceTree = "<group>"; };
+		889B0D041C06BC0300AF827C /* KeYueNetAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeYueNetAPIManager.h; sourceTree = "<group>"; };
+		889B0D051C06BC0300AF827C /* KeYueNetAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeYueNetAPIManager.m; sourceTree = "<group>"; };
+		889B0D071C06E07200AF827C /* UnReadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnReadManager.h; sourceTree = "<group>"; };
+		889B0D081C06E07200AF827C /* UnReadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnReadManager.m; sourceTree = "<group>"; };
+		889B0D0B1C06E98300AF827C /* KeYue.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeYue.pch; sourceTree = "<group>"; };
+		889B0D0C1C06FCBB00AF827C /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		889B0D0D1C06FCBB00AF827C /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		88C1B6291BF43FD00078E635 /* KeYueNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeYueNetAPIClient.h; sourceTree = "<group>"; };
 		88C1B62A1BF43FD00078E635 /* KeYueNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeYueNetAPIClient.m; sourceTree = "<group>"; };
 		88C1B62D1BF5CB8A0078E635 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
@@ -156,6 +166,7 @@
 				888C5A171BF3402000F5BC47 /* KeYue.xcdatamodeld */,
 				888C5A1F1BF3402000F5BC47 /* Info.plist */,
 				888C5A0C1BF3402000F5BC47 /* main.m */,
+				889B0D0B1C06E98300AF827C /* KeYue.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,8 +206,8 @@
 		88C1B6211BF397A30078E635 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				888C5A111BF3402000F5BC47 /* ViewController.h */,
-				888C5A121BF3402000F5BC47 /* ViewController.m */,
+				889B0D011C06B8CB00AF827C /* WechatViewController.h */,
+				889B0D021C06B8CB00AF827C /* WechatViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -214,6 +225,10 @@
 				88C1B62C1BF5CB4B0078E635 /* OC_Category */,
 				88C1B6291BF43FD00078E635 /* KeYueNetAPIClient.h */,
 				88C1B62A1BF43FD00078E635 /* KeYueNetAPIClient.m */,
+				889B0D041C06BC0300AF827C /* KeYueNetAPIManager.h */,
+				889B0D051C06BC0300AF827C /* KeYueNetAPIManager.m */,
+				889B0D071C06E07200AF827C /* UnReadManager.h */,
+				889B0D081C06E07200AF827C /* UnReadManager.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -249,6 +264,8 @@
 			children = (
 				88C1B62D1BF5CB8A0078E635 /* NSObject+Common.h */,
 				88C1B62E1BF5CB8A0078E635 /* NSObject+Common.m */,
+				889B0D0C1C06FCBB00AF827C /* NSString+Common.h */,
+				889B0D0D1C06FCBB00AF827C /* NSString+Common.m */,
 			);
 			path = OC_Category;
 			sourceTree = "<group>";
@@ -439,11 +456,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888C5A131BF3402000F5BC47 /* ViewController.m in Sources */,
 				888C5A191BF3402000F5BC47 /* KeYue.xcdatamodeld in Sources */,
 				88C1B62B1BF43FD00078E635 /* KeYueNetAPIClient.m in Sources */,
+				889B0D061C06BC0300AF827C /* KeYueNetAPIManager.m in Sources */,
 				888C5A101BF3402000F5BC47 /* AppDelegate.m in Sources */,
+				889B0D091C06E07200AF827C /* UnReadManager.m in Sources */,
 				88C1B62F1BF5CB8A0078E635 /* NSObject+Common.m in Sources */,
+				889B0D031C06B8CB00AF827C /* WechatViewController.m in Sources */,
+				889B0D0E1C06FCBB00AF827C /* NSString+Common.m in Sources */,
 				888C5A0D1BF3402000F5BC47 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +605,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeYue/KeYue.pch;
 				INFOPLIST_FILE = KeYue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -599,6 +621,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeYue/KeYue.pch;
 				INFOPLIST_FILE = KeYue/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

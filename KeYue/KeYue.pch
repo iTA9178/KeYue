@@ -1,0 +1,22 @@
+//
+//  KeYue.pch
+//  KeYue
+//
+//  Created by mingway on 11/26/15.
+//  Copyright © 2015 KeYue Inc. All rights reserved.
+//
+
+#ifndef KeYue_pch
+#define KeYue_pch
+
+#endif /* KeYue_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "NSObject+Common.h"
+#import "NSString+Common.h"
+
+#endif
+
+#define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
