@@ -15,6 +15,9 @@ PODS:
   - AFNetworking/UIKit (3.0.0-beta.1):
     - AFNetworking/NSURLSession
   - JDStatusBarNotification (1.5.2)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
   - MBProgressHUD (0.9.1)
   - MJPhotoBrowser (1.0.2):
     - SDWebImage
@@ -29,12 +32,14 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0.0-beta.1)
   - JDStatusBarNotification (~> 1.5.2)
+  - Mantle (~> 2.0.5)
   - MBProgressHUD (~> 0.9.1)
   - MJPhotoBrowser (~> 1.0.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 1100906802d9479aa0949e8e2cbc1d4e6beba327
   JDStatusBarNotification: a36d09ccbb047217572b074a61e7ca10dddc5f0a
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJPhotoBrowser: f55e8490231f44a78ca6455105a1c798a142c95f
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
