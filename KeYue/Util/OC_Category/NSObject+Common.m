@@ -6,15 +6,11 @@
 //  Copyright © 2015 KeYue Inc. All rights reserved.
 //
 
-#define kPath_ImageCache @"ImageCache"
-#define kPath_ResponseCache @"ResponseCache"
-#define kTestKey @"BaseURLIsTest"
-
 #import "NSObject+Common.h"
 #import "JDStatusBarNotification.h"
 //#import "Login.h"
 #import "AppDelegate.h"
-//#import "MBProgressHUD+Add.h"
+#import <MBProgressHUD.h>
 #import "KeYueNetAPIClient.h"
 
 @implementation NSObject (Common)
@@ -59,13 +55,13 @@
 
 - (void)showHudTipStr:(NSString *)tipStr{
     if (tipStr && tipStr.length > 0) {
-//        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kKeyWindow animated:YES];
-//        hud.mode = MBProgressHUDModeText;
-//        hud.detailsLabelFont = [UIFont boldSystemFontOfSize:15.0];
-//        hud.detailsLabelText = tipStr;
-//        hud.margin = 10.f;
-//        hud.removeFromSuperViewOnHide = YES;
-//        [hud hide:YES afterDelay:1.0];
+        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:kKeyWindow animated:YES];
+        hud.mode = MBProgressHUDModeText;
+        hud.detailsLabelFont = [UIFont boldSystemFontOfSize:15.0];
+        hud.detailsLabelText = tipStr;
+        hud.margin = 10.f;
+        hud.removeFromSuperViewOnHide = YES;
+        [hud hide:YES afterDelay:1.0];
     }
 }
 
@@ -118,10 +114,10 @@
     NSString *baseURLStr;
     if ([self baseURLStrIsTest]) {
         //staging
-        baseURLStr = @"http://121.42.143.55:8080/1.6";
+        baseURLStr = kHostServer;
     }else{
         //生产
-        baseURLStr = @"http://api.rehu.cn/1.6";
+        baseURLStr = kHostServer;
     }
     
     return baseURLStr;
@@ -153,7 +149,7 @@
 }
 
 //创建缓存文件夹
-+ (BOOL) createDirInCache:(NSString *)dirName
++ (BOOL)createDirInCache:(NSString *)dirName
 {
     NSString *dirPath = [self pathInCacheDirectory:dirName];
     BOOL isDir = NO;
@@ -171,7 +167,7 @@
 }
 
 // 图片缓存到本地
-+ (BOOL) saveImage:(UIImage *)image imageName:(NSString *)imageName inFolder:(NSString *)folderName
++ (BOOL)saveImage:(UIImage *)image imageName:(NSString *)imageName inFolder:(NSString *)folderName
 {
     if (!image) {
         return NO;
@@ -196,7 +192,7 @@
 }
 
 // 获取缓存图片
-+ (NSData*) loadImageDataWithName:( NSString *)imageName inFolder:(NSString *)folderName
++ (NSData*)loadImageDataWithName:( NSString *)imageName inFolder:(NSString *)folderName
 {
     if (!folderName) {
         folderName = kPath_ImageCache;
@@ -222,7 +218,7 @@
 }
 
 // 删除图片缓存
-+ (BOOL) deleteImageCacheInFolder:(NSString *)folderName {
++ (BOOL)deleteImageCacheInFolder:(NSString *)folderName {
     if (!folderName) {
         folderName = kPath_ImageCache;
     }

@@ -212,7 +212,8 @@
 }
 
 - (NSString *)getUserToken {
-    NSString *token = [[NSUserDefaults standardUserDefaults] stringForKey:@"userToken"];
+//    NSString *token = [[NSUserDefaults standardUserDefaults] stringForKey:@"userToken"];
+    NSString *token = @"55FNJWEN2bWgpRRgymJlRbfT4FeCRK40kRAPSOKlD2m75hPCzI9hgWvkQBdvQfn9NWWHTMMtdoCThvJ7XaYesjvhIrT1F53YXB1gJuHTGxMtf0RA8u0NU7cC2ayMMObq";
     return token;
 }
 

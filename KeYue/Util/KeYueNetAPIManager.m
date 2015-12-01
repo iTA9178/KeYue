@@ -31,8 +31,18 @@
     }];
 }
 
-- (void)request_UnReadCountWithBlock:(void (^)(id data, NSError *error))block {
-    [[KeYueNetAPIClient sharedJsonClient] requestJsonDataWithPath:@"api/user/unread-count" withParams:nil withMethodType:Get autoShowError:NO andBlock:^(id data, NSError *error) {
+- (void)requstHintTextSuccess:(KYSuccessBlock)success failure:(KYFailureBlock)failure {
+    [[KeYueNetAPIClient sharedJsonClient] requestJsonDataWithPath:@"system/publish/hint" withParams:nil withMethodType:Get andBlock:^(id data, NSError *error) {
+        if (data) {
+            success(data,1,@"111");
+        } else {
+            failure(error);
+        }
+    }];
+}
+
+- (void)requestUnReadCountWithBlock:(void (^)(id data, NSError *error))block {
+    [[KeYueNetAPIClient sharedJsonClient] requestJsonDataWithPath:@"me/unread2" withParams:nil withMethodType:Get autoShowError:NO andBlock:^(id data, NSError *error) {
         if (data) {
 //            [MobClick event:kUmeng_Event_Request_Notification label:@"Tab首页的红点通知"];
             
@@ -40,6 +50,19 @@
             block(resultData, nil);
         }else{
             block(nil, error);
+        }
+    }];
+}
+
+- (void)requestUnReadCountSuccess:(KYSuccessBlock)success failure:(KYFailureBlock)failure {
+    [[KeYueNetAPIClient sharedJsonClient] requestJsonDataWithPath:@"me/unread2" withParams:nil withMethodType:Get autoShowError:NO andBlock:^(id data, NSError *error) {
+        if (data) {
+            //            [MobClick event:kUmeng_Event_Request_Notification label:@"Tab首页的红点通知"];
+            if (data) {
+                success(data,1,@"222");
+            }
+        }else{
+            failure(error);
         }
     }];
 }

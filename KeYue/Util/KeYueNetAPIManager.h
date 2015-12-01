@@ -8,12 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^KYSuccessBlock)(id returnData, int code, NSString *msg);
+typedef void(^KYFailureBlock)(NSError *error);
+
 @interface KeYueNetAPIManager : NSObject
 
 + (instancetype)sharedManager;
 
+- (void)startMonitoring;
+
 - (void)requstHintTextWithBlock:(void (^)(id data, NSError *error))block;
 
-- (void)request_UnReadCountWithBlock:(void (^)(id data, NSError *error))block;
+- (void)requstHintTextSuccess:(KYSuccessBlock)success failure:(KYFailureBlock)failure;
+
+- (void)requestUnReadCountWithBlock:(void (^)(id data, NSError *error))block;
+
+- (void)requestUnReadCountSuccess:(KYSuccessBlock)success failure:(KYFailureBlock)failure;
 
 @end

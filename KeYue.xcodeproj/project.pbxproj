@@ -20,6 +20,9 @@
 		889B0D061C06BC0300AF827C /* KeYueNetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D051C06BC0300AF827C /* KeYueNetAPIManager.m */; };
 		889B0D091C06E07200AF827C /* UnReadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D081C06E07200AF827C /* UnReadManager.m */; };
 		889B0D0E1C06FCBB00AF827C /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D0D1C06FCBB00AF827C /* NSString+Common.m */; };
+		889B0D111C08006000AF827C /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D101C08006000AF827C /* Login.m */; };
+		889B0D141C0806B200AF827C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D131C0806B200AF827C /* User.m */; };
+		889B0D1A1C0C3C5600AF827C /* UnRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B0D191C0C3C5600AF827C /* UnRead.m */; };
 		88C1B62B1BF43FD00078E635 /* KeYueNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B62A1BF43FD00078E635 /* KeYueNetAPIClient.m */; };
 		88C1B62F1BF5CB8A0078E635 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C1B62E1BF5CB8A0078E635 /* NSObject+Common.m */; };
 		90C3E9DB6BEA603CC79F06F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B7DBF48A300EDC43A29837 /* libPods.a */; };
@@ -71,6 +74,12 @@
 		889B0D0B1C06E98300AF827C /* KeYue.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeYue.pch; sourceTree = "<group>"; };
 		889B0D0C1C06FCBB00AF827C /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
 		889B0D0D1C06FCBB00AF827C /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		889B0D0F1C08006000AF827C /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		889B0D101C08006000AF827C /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		889B0D121C0806B200AF827C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		889B0D131C0806B200AF827C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		889B0D181C0C3C5600AF827C /* UnRead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnRead.h; sourceTree = "<group>"; };
+		889B0D191C0C3C5600AF827C /* UnRead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnRead.m; sourceTree = "<group>"; };
 		88C1B6291BF43FD00078E635 /* KeYueNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeYueNetAPIClient.h; sourceTree = "<group>"; };
 		88C1B62A1BF43FD00078E635 /* KeYueNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeYueNetAPIClient.m; sourceTree = "<group>"; };
 		88C1B62D1BF5CB8A0078E635 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
@@ -192,6 +201,12 @@
 		88C1B61E1BF3959B0078E635 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				889B0D0F1C08006000AF827C /* Login.h */,
+				889B0D101C08006000AF827C /* Login.m */,
+				889B0D121C0806B200AF827C /* User.h */,
+				889B0D131C0806B200AF827C /* User.m */,
+				889B0D181C0C3C5600AF827C /* UnRead.h */,
+				889B0D191C0C3C5600AF827C /* UnRead.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -458,9 +473,12 @@
 			files = (
 				888C5A191BF3402000F5BC47 /* KeYue.xcdatamodeld in Sources */,
 				88C1B62B1BF43FD00078E635 /* KeYueNetAPIClient.m in Sources */,
+				889B0D1A1C0C3C5600AF827C /* UnRead.m in Sources */,
 				889B0D061C06BC0300AF827C /* KeYueNetAPIManager.m in Sources */,
 				888C5A101BF3402000F5BC47 /* AppDelegate.m in Sources */,
 				889B0D091C06E07200AF827C /* UnReadManager.m in Sources */,
+				889B0D111C08006000AF827C /* Login.m in Sources */,
+				889B0D141C0806B200AF827C /* User.m in Sources */,
 				88C1B62F1BF5CB8A0078E635 /* NSObject+Common.m in Sources */,
 				889B0D031C06B8CB00AF827C /* WechatViewController.m in Sources */,
 				889B0D0E1C06FCBB00AF827C /* NSString+Common.m in Sources */,

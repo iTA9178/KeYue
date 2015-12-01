@@ -20,3 +20,19 @@
 #endif
 
 #define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#define kKeyWindow [UIApplication sharedApplication].keyWindow
+
+//Cache
+#define kPath_ImageCache @"ImageCache"
+#define kPath_ResponseCache @"ResponseCache"
+#define kTestKey @"BaseURLIsTest"
+
+//Server
+#ifdef  DEBUG
+#define kHostServer @"http://121.42.143.55:8080/1.7";
+#else 
+#define kHostServer @"http://api.rehu.cn/1.7";
+#endif
+
+
+
